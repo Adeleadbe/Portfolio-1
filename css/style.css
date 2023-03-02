@@ -1,0 +1,385 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(193, 152, 125);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+main .main_img {
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 750px;
+}
+
+.main_filter {
+    width: 850px;
+    height: 140px;
+    position: absolute;
+    left: 95px;
+    background-color: rgb(107, 77, 57);
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between; 
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    margin-top: 1.6em;
+}
+
+.banner_name {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner_navbar_link {
+    padding-bottom: 24px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner_navbar_link:hover {
+    border-bottom: 4px solid rgba(156, 102, 68, 1);
+    color: rgba(156, 102, 68, 1);
+    font-weight: 500;
+}
+
+.banner_navbar_link:last-child {
+    margin-right: 0;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: -10px;
+    text-shadow: 2px 2px rgb(111, 62, 29);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(170, 115, 80, 0.8);
+    text-shadow: 0.4px 0.4px rgba(255, 240, 230, 0.8);
+}
+
+.homepage {
+    position: relative;
+    height: 580px;
+}
+
+.homepage_button {
+    margin-top: 35px;
+}
+
+.homepage_button a {
+    display: inline-block;
+    text-align: center;
+    width: 205px;
+    padding: 11px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homepage_button_project {
+    margin-right: 12px;
+    background-color: rgba(214, 174, 147, 1);
+    border: 2px solid rgba(111, 62, 29, 0.271);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 19px;
+    transition-duration: 0.2s;
+}
+
+.homepage_button_about {
+    background-color: rgba(214, 174, 147, 1);
+    border: 2px solid rgba(111, 62, 29, 0.271);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 19px;
+    transition-duration: 0.2s;
+}
+
+.homepage_button a:hover {
+    transform: scale(1.05);
+}
+
+.homepage_link {
+    margin-top: 18px;
+    display: flex;
+    align-items: flex-end;
+    transition-duration: 0.2s;
+}
+
+.homepage_link_github:hover {
+    transform: scale(1.05);
+    box-shadow: -0.9px -0.9px 4px rgba(108, 64, 36, 1);
+}
+
+.homepage_link_linkedin:hover {
+    transform: scale(1.05);
+    box-shadow: -0.9px -0.9px 4px rgba(108, 64, 36, 1);
+}
+
+.homepage_link_github {
+    box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+    border-radius: 100%;
+    margin-top: 20px;
+    font-size: 58px;
+    color: rgba(214, 174, 147, 1);
+    margin-right: 20px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.homepage_link_linkedin {
+    box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 14px 15px 12px 15px;
+    background-color: rgba(214, 174, 147, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.homepage_button_next {
+    transition-duration: 0.2s;
+}
+
+.homepage_button_next img:hover {
+    transform: scale(1.05);
+}
+
+.homepage_button_next img {
+    position: absolute;
+    bottom: 0;
+    width: 55px;
+}
+
+#about_anchor {
+    padding-top: 60px
+}
+
+.about h2 {
+    text-align: center;
+    font-weight: 500;
+    color: rgba(156, 102, 68, 0.8);
+    font-size: 40px;
+    text-transform: uppercase;
+    height: 90px;
+    opacity: 80%;
+}
+
+.about_page_content img {
+    width: 250px;
+    height: 240px;
+    border-radius: 120px;
+    margin-top: 90px;
+    margin-right: 64px;
+}
+
+.about_page_content_text p {
+    width: 720px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 30px;
+    color: rgba(108, 64, 36, 1);
+}
+
+.about_page_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about_page_button {
+    height: 80px;
+}
+
+.about_page_button a {
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 38px;
+    width: 9em;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(214, 174, 147, 1);
+    border: 2px solid rgba(111, 62, 29, 0.271);
+    font-size: 20px;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.about_page_button a:hover {
+    transform: scale(1.05);
+    color: rgba(255, 255, 255, 1);
+}
+
+#project_anchor {
+    padding-top: 50px
+}
+
+.project h2 {
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(156, 102, 68, 0.8);
+    font-size: 40px;
+    text-transform: uppercase;
+    height: 90px;
+    opacity: 80%;
+}
+
+.project_content {
+    display: flex;
+    width: 100%;
+}
+
+.project_content_reverse {
+    display: flex;
+}
+
+.project_content_image {
+    width: 500px;
+    height: 24.8em;
+    background-color: rgba(244, 240, 236, 1);
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 50px;
+}
+
+.project_content_text {
+    width: 500px;
+    height: 28em;
+    background-color: rgba(214, 174, 147, 1);
+    text-align: center;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.project_content_text h3 {
+    margin-top: 5.2em;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.project_content_text p {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
+
+#contact_anchor {
+    padding-top: 60px
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    margin-top: 8;
+    font-weight: 400;
+    color: rgba(156, 102, 68, 0.8);
+    font-size: 42px;
+    opacity: 80%;
+}
+
+.contact_title_bold {
+    color: rgba(156, 102, 68, 1);
+    font-weight: 500;
+}
+
+.contact_question {
+    color: rgba(156, 102, 68, 1);
+}
+
+.contact_question p {
+    font-size: 23px;
+}
+
+.contact_link {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(214, 174, 147, 1);;
+    margin-top: 70px;
+}
+
+.contact_link_block {
+    width: 150px;
+    margin: auto;
+}
+
+.contact_link img {
+    width: 60px;
+}
+
+.contact_link a {
+    text-decoration: none;
+    color: rgba(156, 102, 68, 1);
+    font-weight: 400;
+}
+
+.contact_link a:hover {
+    font-weight: 500;
+}
+
+.contact_text {
+    font-size: 21px;
+    color: rgba(156, 102, 68, 1);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 13%;
+}
+
+.contact_link_block_github {
+    font-size: 55px;
+    box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+    border-radius: 100%;
+    height: 56px;
+    font-size: 58px;
+}
+
+.contact_link_block_linkedin {
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 14px 15px 12px 15px;
+    background-color: rgba(214, 174, 147, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+}
+
+.contact_link_block_email {
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 14px 15px 12px 15px;
+    background-color: rgba(214, 174, 147, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+}
