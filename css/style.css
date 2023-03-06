@@ -263,7 +263,7 @@ h2 {
 }
 
 .project_content_image {
-    width: 500px;
+    width: 495px;
     height: 24.8em;
     background-color: rgba(244, 240, 236, 1);
     padding-right: 75px;
@@ -382,4 +382,26 @@ h2 {
     background-color: rgba(214, 174, 147, 1);
     color: rgba(255, 255, 255, 1);
     box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+}
+
+.project_animation {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 0.8s all ease;
+}
+
+.project_animation.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.project_content_text_animation {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+
+.project_content_text_animation.active {
+    transform: translateY(0);
+    opacity: 1;
 }
