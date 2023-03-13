@@ -244,7 +244,7 @@ h2 {
 }
 
 #project_anchor {
-    padding-top: 50px
+    padding-top: 50px;
 }
 
 .project h2 {
@@ -305,7 +305,7 @@ h2 {
 }
 
 .project_animation {
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     opacity: 0;
     transition: 0.8s all ease;
 }
@@ -392,10 +392,10 @@ h2 {
 }
 
 .contact_link_block_github {
-    font-size: 55px;
     box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
     border-radius: 100%;
     height: 56px;
+    width: 56px;
     font-size: 58px;
 }
 
@@ -415,6 +415,12 @@ h2 {
     background-color: rgba(214, 174, 147, 1);
     color: rgba(255, 255, 255, 1);
     box-shadow: -0.5px -0.5px 3px rgba(108, 64, 36, 1);
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(156, 102, 68, 1);
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 1000px) {
@@ -558,7 +564,7 @@ h2 {
         height: 65px;
     }
 
-    .about h2, .project h2, .contact h2 {
+    .about h2, .project h2 {
         font-size: 25px;
     }
 
@@ -582,6 +588,10 @@ h2 {
 
     .homepage {
         height: 420px;
+    }
+
+    .homepage_link {
+        margin-top: 11px;
     }
 
     .homepage_filter {
@@ -637,6 +647,14 @@ h2 {
         height: 350px;
     }
 
+    .project_content_text_animation {
+        transform: translateX(30px);
+    }
+
+    .contact h2 {
+        font-size: 27px;
+    }
+
     .project_content_text h3 {
         font-size: 30px;
     }
@@ -646,22 +664,34 @@ h2 {
     }
 
     .contact_question p {
-        font-size: 15px
-    }
-    .contact_link_block_email, .contact_link_block_linkedin {
-        font-size: 20px;
+        font-size: 18px
     }
 
-    .contact_link_block_github {
-        font-size: 50px;
-        height: 48px
+    .contact_link_block {
+        margin-bottom: 26px;
     }
 
-    .contact_link a, .contact_link_block p, .contact_text {
-        font-size: 15px;
+    .contact_link_block p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .contact_link {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .contact_link a {
+        font-size: 16px;
+    }
+
+    .contact_text  {
+        font-size: 18px;
     }
 
     footer {
         height: 550px;
+        width: 100%;
     }
 }
